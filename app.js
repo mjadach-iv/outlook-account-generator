@@ -14,7 +14,7 @@ async function start() {
         executablePath: "", // How to find: Open chrome and go to chrome://version
         userDataDir: "", // How to find: Open chrome and go to chrome://version
         args: [
-            `--window-size=${width},${height}`
+            `--window-size=${width},${height}`,
             '--proxy-server=24.199.75.112:9989'
         ],
         defaultViewport: {
