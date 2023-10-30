@@ -15,6 +15,7 @@ async function start() {
         userDataDir: "", // How to find: Open chrome and go to chrome://version
         args: [
             `--window-size=${width},${height}`
+            '--proxy-server=24.199.75.112:9989'
         ],
         defaultViewport: {
             width,
@@ -22,6 +23,10 @@ async function start() {
         }
     });
     const context = await browser.createIncognitoBrowserContext();
+    await page.authenticate({
+            username: "hanl79834izaq208612",
+            password: "jcjZiJ7BffjAfYnL_country-Indonesia"
+        })
     const page = await context.newPage()
 
     await page.emulateTimezone('Africa/Bujumbura');
