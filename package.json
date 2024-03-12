@@ -1,0 +1,17 @@
+{
+  "name": "outlook-account-generator",
+  "version": "1.0.0",
+  "description": "A fast and secure bot that creates Microsoft accounts.",
+  "main": "app.js",
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "puppeteer": "^21",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
